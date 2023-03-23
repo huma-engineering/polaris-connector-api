@@ -54,6 +54,8 @@ services:
     container_name: "dhos-connector-integration-tests"
     build:
       context: .
+      ssh:
+        - ed=$DOCKER_SSH
     environment:
       <<: *COMMON_ENVIRONMENT
       SYSTEM_JWT_SCOPE: "read:hl7_message write:hl7_message"
