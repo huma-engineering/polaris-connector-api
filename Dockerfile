@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9-slim
 
 ENV FLASK_APP dhos_connector_api/autoapp.py
 
