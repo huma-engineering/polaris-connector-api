@@ -10,6 +10,6 @@ mypy
 python-jose==3.*
 reportportal-behave-client==1.*
 requests
-she-data-generation
+she-data-generation @ git+ssh://git@github.com/huma-engineering/she-data-generation.git@c8c96339b57e5e44fe2b4bffb94c27587f2d43ea
 she-logging
 types-requests
